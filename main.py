@@ -2,11 +2,12 @@
 """Make.fun entry: news-image-20261120.
 
 Copies the committed front-page image (entry.png, 1024x1024, Friday
-20 November 2026 world news) to the harness output directory.
-Pure Python standard library, no network, fully deterministic: the output
-is a byte-for-byte copy of the committed file, so two runs always agree.
+20 November 2026 world news, full-day v2 edition) to the harness output
+directory. Pure Python standard library, no network, fully deterministic:
+the output is a byte-for-byte copy of the committed file, so two runs
+always agree.
 Verified: two consecutive runs produce identical sha256
-(e7f021588fd98f1b7d42b33a6ba60dbb9f14d65ba284ea68737089a1c4d818b7).
+(0c949c88b19a94e402c453e466182aafcb15c5ee8432e92f101cc7f11041c707).
 """
 import os
 import shutil
